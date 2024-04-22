@@ -18,31 +18,49 @@ We use the following data within the prompt to
 **Admission Data**
 
 <admission_time>
+
 <death_time>
+
 <death_occured>
+
 <admission_type>
+
 <admission_location>
+
 <insurance>
+
 <ethnicity>
+
 <diagnosis>
 
 
 **Callout**
+
 <callout_time>
+
 <callout_outcome>
+
 <callout_service>
 
 **Prescription**
+
 <name>
+
 <prescription_strength>
+
 <route>
+
 <start_time>
+
 <end_time>
 
 **Notes**
+
 Currently we only use the discharge summary.
 Before adding the note text to the data. We generate a summary of the note using the LLM Model.
+
 <note_time>
+
 <note_summary>
 
 
